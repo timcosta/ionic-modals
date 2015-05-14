@@ -1,0 +1,25 @@
+{
+  "name": "ionic-modals",
+  "main": "index.js",
+  "version": "1.0.0",
+  "authors": [
+    "Tim Costa <tjsail33@gmail.com>"
+  ],
+  "description": "Modal service that allows passing of controller and locals in Ionic.",
+  "keywords": [
+    "ionic",
+    "modals",
+    "service",
+    "controller",
+    "locals",
+    "resolve"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

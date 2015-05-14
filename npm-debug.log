@@ -1,28 +1,69 @@
 0 info it worked if it ends with ok
 1 verbose cli [ '/Users/timcosta/.nvm/v0.10.36/bin/node',
 1 verbose cli   '/Users/timcosta/.nvm/v0.10.36/bin/npm',
-1 verbose cli   'init' ]
+1 verbose cli   'publish',
+1 verbose cli   '.' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.36
-4 silly package data undefined
-5 info init written successfully
-6 error Error: Invalid name: "Ionic Modals"
-6 error     at ensureValidName (/Users/timcosta/.nvm/v0.10.36/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/fixer.js:315:15)
-6 error     at Object.module.exports.fixNameField (/Users/timcosta/.nvm/v0.10.36/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/fixer.js:204:5)
-6 error     at /Users/timcosta/.nvm/v0.10.36/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/normalize.js:30:38
-6 error     at Array.forEach (native)
-6 error     at normalize (/Users/timcosta/.nvm/v0.10.36/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/normalize.js:29:15)
-6 error     at final (/Users/timcosta/.nvm/v0.10.36/lib/node_modules/npm/node_modules/read-package-json/read-json.js:342:33)
-6 error     at then (/Users/timcosta/.nvm/v0.10.36/lib/node_modules/npm/node_modules/read-package-json/read-json.js:126:33)
-6 error     at /Users/timcosta/.nvm/v0.10.36/lib/node_modules/npm/node_modules/read-package-json/read-json.js:316:48
-6 error     at evalmachine.<anonymous>:208:20
-6 error     at OpenReq.Req.done (/Users/timcosta/.nvm/v0.10.36/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:141:5)
-7 error If you need help, you may report this *entire* log,
-7 error including the npm and node versions, at:
-7 error     <http://github.com/npm/npm/issues>
-8 error System Darwin 14.3.0
-9 error command "/Users/timcosta/.nvm/v0.10.36/bin/node" "/Users/timcosta/.nvm/v0.10.36/bin/npm" "init"
-10 error cwd /Users/timcosta/tjsail33-ionicModals
-11 error node -v v0.10.36
-12 error npm -v 1.4.28
-13 verbose exit [ 1, true ]
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/timcosta/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/Users/timcosta/.npm/ionic-modals/1.0.0/package.tgz', '.' ]
+11 verbose tarball /Users/timcosta/.npm/ionic-modals/1.0.0/package.tgz
+12 verbose folder .
+13 info prepublish ionic-modals@1.0.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/timcosta/.npm/1f1177db-tar.lock
+16 silly lockFile 460bd0f2-m-ionic-modals-1-0-0-package-tgz tar:///Users/timcosta/.npm/ionic-modals/1.0.0/package.tgz
+17 verbose lock tar:///Users/timcosta/.npm/ionic-modals/1.0.0/package.tgz /Users/timcosta/.npm/460bd0f2-m-ionic-modals-1-0-0-package-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 460bd0f2-m-ionic-modals-1-0-0-package-tgz tar:///Users/timcosta/.npm/ionic-modals/1.0.0/package.tgz
+21 silly lockFile 460bd0f2-m-ionic-modals-1-0-0-package-tgz tar:///Users/timcosta/.npm/ionic-modals/1.0.0/package.tgz
+22 silly lockFile b5537f97-a-npm-ionic-modals-1-0-0-package /Users/timcosta/.npm/ionic-modals/1.0.0/package
+23 verbose lock /Users/timcosta/.npm/ionic-modals/1.0.0/package /Users/timcosta/.npm/b5537f97-a-npm-ionic-modals-1-0-0-package.lock
+24 silly lockFile b5537f97-a-npm-ionic-modals-1-0-0-package /Users/timcosta/.npm/ionic-modals/1.0.0/package
+25 silly lockFile b5537f97-a-npm-ionic-modals-1-0-0-package /Users/timcosta/.npm/ionic-modals/1.0.0/package
+26 silly lockFile 3a52ce78- .
+27 silly lockFile 3a52ce78- .
+28 silly publish { name: 'ionic-modals',
+28 silly publish   version: '1.0.0',
+28 silly publish   description: 'Modal service that allows passing of controller and locals in Ionic.',
+28 silly publish   main: 'index.js',
+28 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+28 silly publish   repository:
+28 silly publish    { type: 'git',
+28 silly publish      url: 'https://github.com/tjsail33/ionic-modals.git' },
+28 silly publish   author: { name: 'Tim Costa', url: 'tjsail33' },
+28 silly publish   license: 'MIT',
+28 silly publish   readme: '# ionic-modals\n',
+28 silly publish   readmeFilename: 'README.md',
+28 silly publish   gitHead: '29ede11b6ea26c1282ef0d4f2f2b5ffbd537431f',
+28 silly publish   bugs: { url: 'https://github.com/tjsail33/ionic-modals/issues' },
+28 silly publish   homepage: 'https://github.com/tjsail33/ionic-modals',
+28 silly publish   _id: 'ionic-modals@1.0.0',
+28 silly publish   _shasum: '642098db986dced7fa08ff1bdb0168ea46bfd65a',
+28 silly publish   _from: '.' }
+29 error need auth auth and email required for publishing
+29 error need auth You need to authorize this machine using `npm adduser`
+30 error System Darwin 14.3.0
+31 error command "/Users/timcosta/.nvm/v0.10.36/bin/node" "/Users/timcosta/.nvm/v0.10.36/bin/npm" "publish" "."
+32 error cwd /Users/timcosta/tjsail33-ionicModals
+33 error node -v v0.10.36
+34 error npm -v 1.4.28
+35 error code ENEEDAUTH
+36 verbose exit [ 1, true ]

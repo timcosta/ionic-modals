@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tjsail33/ionic-modals.git"
+  },
+  "author": "Tim Costa (tjsail33)",
   "license": "MIT"
 }
