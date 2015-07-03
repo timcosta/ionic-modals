@@ -2,11 +2,15 @@
   angular.module('tjsail33.ionicModals', ['ionic']).factory('$modalService', [
     '$ionicModal', '$rootScope', '$q', '$injector', '$controller', function($ionicModal, $rootScope, $q, $injector, $controller) {
       var _cleanup, _evalController, show;
-      show = function(templeteUrl, controller, parameters, options) {
+      show = function(templeteUrl, controller, parameters, options, parentScope) {
         var ctrlInstance, defaultOptions, deferred, modalScope, thisScopeId;
         deferred = $q.defer();
         ctrlInstance = void 0;
-        modalScope = $rootScope.$new();
+        if(parentScope) {
+          modalScope = parentScope.$new();
+        }else{
+          modalScope = $rootScope.$new();
+        }
         thisScopeId = modalScope.$id;
         defaultOptions = {
           animation: 'slide-in-up',
