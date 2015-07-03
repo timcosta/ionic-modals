@@ -24,7 +24,7 @@ app.controller "ControllerName", ['parameters', (parameters) ->
 
 ## API
 
-### `.show(path,controllerName,parameters,options,parentScope=null)`
+#### `.show(path,controllerName,parameters,options,parentScope=null)`
 Returns a promise that resolves when the modal closes, same as the standard Ionic Modal service.
 
 The `parentScope` argument is optional. If one is not passed, $rootScope will be used as the parent.
